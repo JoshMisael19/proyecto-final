@@ -1222,3 +1222,13 @@ int main()
                 }while(respuesta34 !=1 && respuesta34 !=2 && respuesta34 !=3);
                 cout<<"Terminaste el apartado de quimica"<<endl <<endl;
             }
+            cout<<"Has acabado con todas las preguntas del Test"<<endl;
+            cout<<"Obtuviste un total de: " <<totalpuntosquimica <<" puntos"<<endl <<endl <<endl;
+            cout<<"Deseas regresar al menu principal"<<endl;
+            cout<<"1: SI"<<endl;
+            cout<<"2: NO"<<endl <<endl;
+            cin>>salida;
+    }while(salida !=2);
+    cout<<"Gracias por jugar"<<endl;
+    return 0;
+}
