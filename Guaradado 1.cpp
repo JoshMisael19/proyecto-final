@@ -1132,3 +1132,93 @@ int main()
                     }
                 }while(respuesta33 !=1 && respuesta33 !=2 && respuesta33 !=3);
             }
+            if(respuesta33 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es el símbolo del elemento galio?"<<endl;
+                    cout<<"1: Ga"<<endl;
+                    cout<<"2: G"<<endl;
+                    cout<<"3: Gl"<<endl <<endl;
+                    cin>>respuesta34;
+                    
+                    switch(respuesta34){
+                        case 1:
+                            totalpuntosquimica=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntosquimica=totalpuntos - sumapuntosquimica;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntosquimica=totalpuntos - sumapuntosquimica;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta34 !=1 && respuesta34 !=2 && respuesta34 !=3);
+                cout<<"Terminaste el apartado de quimica"<<endl <<endl;
+            }
+            if(respuesta33 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es el símbolo del elemento galio?"<<endl;
+                    cout<<"1: Ga"<<endl;
+                    cout<<"2: G"<<endl;
+                    cout<<"3: Gl"<<endl <<endl;
+                    cin>>respuesta34;
+                    
+                    switch(respuesta34){
+                        case 1:
+                            totalpuntosquimica=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntosquimica=totalpuntos - sumapuntosquimica;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntosquimica=totalpuntos - sumapuntosquimica;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta34 !=1 && respuesta34 !=2 && respuesta34 !=3);
+                cout<<"Terminaste el apartado de quimica"<<endl <<endl;
+            }
+            if(respuesta33 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es el símbolo del elemento galio?"<<endl;
+                    cout<<"1: Ga"<<endl;
+                    cout<<"2: G"<<endl;
+                    cout<<"3: Gl"<<endl <<endl;
+                    cin>>respuesta34;
+                    
+                    switch(respuesta34){
+                        case 1:
+                            totalpuntosquimica=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntosquimica=totalpuntos - sumapuntosquimica;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntosquimica=totalpuntos - sumapuntosquimica;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosquimica <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta34 !=1 && respuesta34 !=2 && respuesta34 !=3);
+                cout<<"Terminaste el apartado de quimica"<<endl <<endl;
+            }
