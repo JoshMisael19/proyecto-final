@@ -69,3 +69,32 @@ int main()
                 cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
         }
     }while(respuesta !=1);
+        cout<<"La primera asignatura es Español" <<endl <<endl;
+            do{
+                    cout<<"ESPAÑOL"<<endl <<"Tu total de puntos es de: " <<puntos <<" puntos" <<endl;
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Sustantivo y verbo son:"<<endl;
+                    cout<<"1: Preposiciones"<<endl;
+                    cout<<"2: Partes de una oraciòn"<<endl;
+                    cout<<"3: Expresiones"<<endl <<endl;
+                    cin>>respuesta1;
+                    
+                    switch(respuesta1){
+                        case 1:
+                            totalpuntos=puntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=puntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=puntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntosa es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;   
+                    }
+                }while(respuesta1 !=1 && respuesta1 !=2 && respuesta1 !=3);
