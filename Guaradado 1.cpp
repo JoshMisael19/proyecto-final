@@ -836,3 +836,38 @@ int main()
                 }while(respuesta24 !=1 && respuesta24 !=2 && respuesta24 !=3);
                 cout<<"Terminaste la parte de cultura general"<<endl <<endl;
             }
+            cout<<"Felicidades acabaste cultura general"<<endl <<"Presiona el numero 1 para continuar con Quimicia"<<endl <<endl;
+            cin>>siguiente1;
+            cout<<"Cargando..."<<endl <<endl;
+            cout<<"Iniciando con Quimica"<<endl <<endl;
+            
+            if(siguiente1 ==1){
+                do{
+                    cout<<"QUIMICA"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos" <<endl;
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"La unión de dos elementos forman:"<<endl;
+                    cout<<"1: Una mezcla"<<endl;
+                    cout<<"2: Una solución"<<endl;
+                    cout<<"3: Un compuesto"<<endl <<endl;
+                    cin>>respuesta3;
+                    
+                    switch(respuesta3){
+                        case 1:
+                            totalpuntos=totalpuntoscultura - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntoscultura - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntoscultura + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta3 !=1 && respuesta3 !=2 && respuesta3 !=3);
+            }
