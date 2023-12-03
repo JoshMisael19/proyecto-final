@@ -746,3 +746,93 @@ int main()
                     }
                 }while(respuesta23 !=1 && respuesta23 !=2 && respuesta23 !=3);
             }
+            if(respuesta23 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Quién es considerado el padre de la ciencia y la filosofía?"<<endl;
+                    cout<<"1: Tales de Mileto"<<endl;
+                    cout<<"2: Aristóteles"<<endl;
+                    cout<<"3: Pitágoras"<<endl <<endl;
+                    cin>>respuesta24;
+                    
+                    switch(respuesta24){
+                        case 1:
+                            totalpuntoscultura=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntoscultura=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntoscultura=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta24 !=1 && respuesta24 !=2 && respuesta24 !=3);
+                cout<<"Terminaste la parte de cultura general"<<endl <<endl;
+            }
+            if(respuesta23 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Quién es considerado el padre de la ciencia y la filosofía?"<<endl;
+                    cout<<"1: Tales de Mileto"<<endl;
+                    cout<<"2: Aristóteles"<<endl;
+                    cout<<"3: Pitágoras"<<endl <<endl;
+                    cin>>respuesta24;
+                    
+                    switch(respuesta24){
+                        case 1:
+                            totalpuntoscultura=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntoscultura=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntoscultura=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta24 !=1 && respuesta24 !=2 && respuesta24 !=3);
+                cout<<"Terminaste la parte de cultura general"<<endl <<endl;
+            }
+            if(respuesta23 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Quién es considerado el padre de la ciencia y la filosofía?"<<endl;
+                    cout<<"1: Tales de Mileto"<<endl;
+                    cout<<"2: Aristóteles"<<endl;
+                    cout<<"3: Pitágoras"<<endl <<endl;
+                    cin>>respuesta24;
+                    
+                    switch(respuesta24){
+                        case 1:
+                            totalpuntoscultura=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntoscultura=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntoscultura=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntoscultura <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta24 !=1 && respuesta24 !=2 && respuesta24 !=3);
+                cout<<"Terminaste la parte de cultura general"<<endl <<endl;
+            }
