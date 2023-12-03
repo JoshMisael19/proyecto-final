@@ -1045,3 +1045,90 @@ int main()
                     }
                 }while(respuesta32 !=1 && respuesta32 !=2 && respuesta31 !=3);
             }
+            if(respuesta32 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es la afirmación correcta?"<<endl;
+                    cout<<"1: Un átomo con 94 electrones tiene un número másico igual a 94"<<endl;
+                    cout<<"2: Un átomo con 94 neutrones tiene un número atómico igual a 94"<<endl;
+                    cout<<"3: Un átomo con 94 protones tiene un número atómico igual a 94"<<endl <<endl;
+                    cin>>respuesta33;
+                    
+                    switch(respuesta33){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta33 !=1 && respuesta33 !=2 && respuesta33 !=3);
+            }
+            if(respuesta32 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es la afirmación correcta?"<<endl;
+                    cout<<"1: Un átomo con 94 electrones tiene un número másico igual a 94"<<endl;
+                    cout<<"2: Un átomo con 94 neutrones tiene un número atómico igual a 94"<<endl;
+                    cout<<"3: Un átomo con 94 protones tiene un número atómico igual a 94"<<endl <<endl;
+                    cin>>respuesta33;
+                    
+                    switch(respuesta33){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta33 !=1 && respuesta33 !=2 && respuesta33 !=3);
+            }
+            if(respuesta32 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es la afirmación correcta?"<<endl;
+                    cout<<"1: Un átomo con 94 electrones tiene un número másico igual a 94"<<endl;
+                    cout<<"2: Un átomo con 94 neutrones tiene un número atómico igual a 94"<<endl;
+                    cout<<"3: Un átomo con 94 protones tiene un número atómico igual a 94"<<endl <<endl;
+                    cin>>respuesta33;
+                    
+                    switch(respuesta33){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta33 !=1 && respuesta33 !=2 && respuesta33 !=3);
+            }
