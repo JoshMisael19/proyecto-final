@@ -450,3 +450,125 @@ int main()
                 }while(respuesta14 !=1 && respuesta14 !=2 && respuesta14 !=3);
                 cout<<"Terminaste la parte de español"<<endl <<endl;
             }
+            cout<<"presiona 1 para Cultura general"<<endl <<endl;
+            cin>>siguiente;
+            cout<<"Cargando..."<<endl <<endl;
+            cout<<"Iniciando con Cultura General"<<endl <<endl;
+            
+            if(siguiente ==1){
+                do{
+                    cout<<"CULTURA GENERAL"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos" <<endl;
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es la velocidad de la luz?"<<endl;
+                    cout<<"1: 350 000 000 metros por segundo"<<endl;
+                    cout<<"2: 299 792 458 metros por segundo"<<endl;
+                    cout<<"3: 150 000 000 metros por segundo"<<endl <<endl;
+                    cin>>respuesta2;
+                    
+                    switch(respuesta2){
+                        case 1:
+                            totalpuntos=totalpuntosespanol - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntosespanol + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntosespanol - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta2 !=1 && respuesta2 !=2 && respuesta2 !=3);
+            }
+            if(respuesta2 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es el libro más vendido en el mundo después de la Biblia?"<<endl;
+                    cout<<"1: Don Quijote de la Mancha"<<endl;
+                    cout<<"2: El Principito"<<endl;
+                    cout<<"3: El Señor de los Anillos"<<endl <<endl;
+                    cin>>respuesta21;
+                    
+                    switch(respuesta21){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta21 !=1 && respuesta21 !=2 && respuesta21 !=3);
+            }
+            if(respuesta2 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es el libro más vendido en el mundo después de la Biblia?"<<endl;
+                    cout<<"1: Don Quijote de la Mancha"<<endl;
+                    cout<<"2: El Principito"<<endl;
+                    cout<<"3: El Señor de los Anillos"<<endl <<endl;
+                    cin>>respuesta21;
+                    
+                    switch(respuesta21){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta21 !=1 && respuesta21 !=2 && respuesta21 !=3);
+            }
+            if(respuesta2 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cuál es el libro más vendido en el mundo después de la Biblia?"<<endl;
+                    cout<<"1: Don Quijote de la Mancha"<<endl;
+                    cout<<"2: El Principito"<<endl;
+                    cout<<"3: El Señor de los Anillos"<<endl <<endl;
+                    cin>>respuesta21;
+                    
+                    switch(respuesta21){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta21 !=1 && respuesta21 !=2 && respuesta21 !=3);
+            }
