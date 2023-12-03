@@ -871,3 +871,90 @@ int main()
                     }
                 }while(respuesta3 !=1 && respuesta3 !=2 && respuesta3 !=3);
             }
+            if(respuesta3 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"El átomo está compuesto por:"<<endl;
+                    cout<<"1: Protones, neutrones y electrones"<<endl;
+                    cout<<"2: Isótopos y elementos"<<endl;
+                    cout<<"3: Fotones, gluones, fermiones"<<endl <<endl;
+                    cin>>respuesta31;
+                    
+                    switch(respuesta31){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta31 !=1 && respuesta31 !=2 && respuesta31 !=3);
+            }
+            if(respuesta3 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"El átomo está compuesto por:"<<endl;
+                    cout<<"1: Protones, neutrones y electrones"<<endl;
+                    cout<<"2: Isótopos y elementos"<<endl;
+                    cout<<"3: Fotones, gluones, fermiones"<<endl <<endl;
+                    cin>>respuesta31;
+                    
+                    switch(respuesta31){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta31 !=1 && respuesta31 !=2 && respuesta31 !=3);
+            }
+            if(respuesta3 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"El átomo está compuesto por:"<<endl;
+                    cout<<"1: Protones, neutrones y electrones"<<endl;
+                    cout<<"2: Isótopos y elementos"<<endl;
+                    cout<<"3: Fotones, gluones, fermiones"<<endl <<endl;
+                    cin>>respuesta31;
+                    
+                    switch(respuesta31){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta31 !=1 && respuesta31 !=2 && respuesta31 !=3);
+            }
