@@ -273,3 +273,90 @@ int main()
                     }
                 }while(respuesta12 !=1 && respuesta12 !=2 && respuesta12 !=3);
             }
+            if(respuesta12 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Llamamos sujeto a:"<<endl;
+                    cout<<"1: La persona, animal o cosa que realiza la acción del verbo o de quien se dice algo"<<endl;
+                    cout<<"2: Expresiones escritas"<<endl;
+                    cout<<"3: Un individuo que habla"<<endl <<endl;
+                    cin>>respuesta13;
+                    
+                    switch(respuesta13){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta13 !=1 && respuesta13 !=2 && respuesta13 !=3);
+            }
+            if(respuesta12 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Llamamos sujeto a:"<<endl;
+                    cout<<"1: La persona, animal o cosa que realiza la acción del verbo o de quien se dice algo"<<endl;
+                    cout<<"2: Expresiones escritas"<<endl;
+                    cout<<"3: Un individuo que habla"<<endl <<endl;
+                    cin>>respuesta13;
+                    
+                    switch(respuesta13){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta13 !=1 && respuesta13 !=2 && respuesta13 !=3);
+            }
+            if(respuesta12 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Llamamos sujeto a:"<<endl;
+                    cout<<"1: La persona, animal o cosa que realiza la acción del verbo o de quien se dice algo"<<endl;
+                    cout<<"2: Expresiones escritas"<<endl;
+                    cout<<"3: Un individuo que habla"<<endl <<endl;
+                    cin>>respuesta13;
+                    
+                    switch(respuesta13){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta13 !=1 && respuesta13 !=2 && respuesta13 !=3);
+            }
