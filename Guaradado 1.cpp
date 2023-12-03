@@ -360,3 +360,93 @@ int main()
                     }
                 }while(respuesta13 !=1 && respuesta13 !=2 && respuesta13 !=3);
             }
+            if(respuesta13 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"En la oración se realiza siempre una acción ,es decir que siempre lleva un:"<<endl;
+                    cout<<"1: Adjetivo"<<endl;
+                    cout<<"2: Historia"<<endl;
+                    cout<<"3: Verbo"<<endl <<endl;
+                    cin>>respuesta14;
+                    
+                    switch(respuesta14){
+                        case 1:
+                            totalpuntosespanol=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntosespanol=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntosespanol=totalpuntos + restapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta14 !=1 && respuesta14 !=2 && respuesta14 !=3);
+                cout<<"Terminaste la parte de español"<<endl <<endl;
+            }
+            if(respuesta13 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"En la oración se realiza siempre una acción ,es decir que siempre lleva un:"<<endl;
+                    cout<<"1: Adjetivo"<<endl;
+                    cout<<"2: Historia"<<endl;
+                    cout<<"3: Verbo"<<endl <<endl;
+                    cin>>respuesta14;
+                    
+                    switch(respuesta14){
+                        case 1:
+                            totalpuntosespanol=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntosespanol=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntosespanol=totalpuntos + restapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta14 !=1 && respuesta14 !=2 && respuesta14 !=3);
+                cout<<"Terminaste la parte de español"<<endl <<endl;
+            }
+            if(respuesta13 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"En la oración se realiza siempre una acción ,es decir que siempre lleva un:"<<endl;
+                    cout<<"1: Adjetivo"<<endl;
+                    cout<<"2: Historia"<<endl;
+                    cout<<"3: Verbo"<<endl <<endl;
+                    cin>>respuesta14;
+                    
+                    switch(respuesta14){
+                        case 1:
+                            totalpuntosespanol=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntosespanol=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntosespanol=totalpuntos + restapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntosespanol <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta14 !=1 && respuesta14 !=2 && respuesta14 !=3);
+                cout<<"Terminaste la parte de español"<<endl <<endl;
+            }
