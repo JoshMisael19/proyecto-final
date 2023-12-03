@@ -958,3 +958,90 @@ int main()
                     }
                 }while(respuesta31 !=1 && respuesta31 !=2 && respuesta31 !=3);
             }
+            if(respuesta31 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cómo se llama el cambio de estado de gaseoso a sólido, sin pasar por líquido?"<<endl;
+                    cout<<"1: Sublimación progresiva"<<endl;
+                    cout<<"2: Sublimación regresiva o inversa"<<endl;
+                    cout<<"3: Condensación"<<endl <<endl;
+                    cin>>respuesta32;
+                    
+                    switch(respuesta32){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta32 !=1 && respuesta32 !=2 && respuesta32 !=3);
+            }
+            if(respuesta31 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cómo se llama el cambio de estado de gaseoso a sólido, sin pasar por líquido?"<<endl;
+                    cout<<"1: Sublimación progresiva"<<endl;
+                    cout<<"2: Sublimación regresiva o inversa"<<endl;
+                    cout<<"3: Condensación"<<endl <<endl;
+                    cin>>respuesta32;
+                    
+                    switch(respuesta32){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta32 !=1 && respuesta32 !=2 && respuesta31 !=3);
+            }
+            if(respuesta31 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 50 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"¿Cómo se llama el cambio de estado de gaseoso a sólido, sin pasar por líquido?"<<endl;
+                    cout<<"1: Sublimación progresiva"<<endl;
+                    cout<<"2: Sublimación regresiva o inversa"<<endl;
+                    cout<<"3: Condensación"<<endl <<endl;
+                    cin>>respuesta32;
+                    
+                    switch(respuesta32){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos + sumapuntosquimica;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta32 !=1 && respuesta32 !=2 && respuesta31 !=3);
+            }
