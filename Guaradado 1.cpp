@@ -98,3 +98,90 @@ int main()
                             cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;   
                     }
                 }while(respuesta1 !=1 && respuesta1 !=2 && respuesta1 !=3);
+                if(respuesta1 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Para que una oración tenga sentido debe estar:"<<endl;
+                    cout<<"1: Clara"<<endl;
+                    cout<<"2: Ordenada"<<endl;
+                    cout<<"3: Nìtida"<<endl <<endl;
+                    cin>>respuesta11;
+                    
+                    switch(respuesta11){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE" <<endl <<"Tu total de puntos es de:" <<totalpuntos <<" puntos" <<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntosa es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta11 !=1 && respuesta11 !=2 && respuesta11 !=3);
+            }
+            if(respuesta1 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Para que una oración tenga sentido debe estar:"<<endl;
+                    cout<<"1: Clara"<<endl;
+                    cout<<"2: Ordenada"<<endl;
+                    cout<<"3: Nìtida"<<endl <<endl;
+                    cin>>respuesta11;
+                    
+                    switch(respuesta11){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntosa es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;   
+                    }
+                }while(respuesta11 !=1 && respuesta11 !=2 && respuesta11 !=3);
+            }
+            if(respuesta1 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 20 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"Para que una oración tenga sentido debe estar:"<<endl;
+                    cout<<"1: Clara"<<endl;
+                    cout<<"2: Ordenada"<<endl;
+                    cout<<"3: Nìtida"<<endl <<endl;
+                    cin>>respuesta11;
+                    
+                    switch(respuesta11){
+                        case 1:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos + sumapuntos;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos<<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntosa es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta11 !=1 && respuesta11 !=2 && respuesta11 !=3);
+            }
