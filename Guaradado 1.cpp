@@ -572,3 +572,90 @@ int main()
                     }
                 }while(respuesta21 !=1 && respuesta21 !=2 && respuesta21 !=3);
             }
+            if(respuesta21 ==1){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"El número romano MDCLXVI corresponde a:"<<endl;
+                    cout<<"1: 1666"<<endl;
+                    cout<<"2: 1551"<<endl;
+                    cout<<"3: 1000100"<<endl <<endl;
+                    cin>>respuesta22;
+                    
+                    switch(respuesta22){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta22 !=1 && respuesta22 !=2 && respuesta22 !=3);
+            }
+            if(respuesta21 ==2){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"El número romano MDCLXVI corresponde a:"<<endl;
+                    cout<<"1: 1666"<<endl;
+                    cout<<"2: 1551"<<endl;
+                    cout<<"3: 1000100"<<endl <<endl;
+                    cin>>respuesta22;
+                    
+                    switch(respuesta22){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta22 !=1 && respuesta22 !=2 && respuesta22 !=3);
+            }
+            if(respuesta21 ==3){
+                do{
+                    cout<<"Esta pregunta tiene un valor de 60 puntos" <<endl;
+                    cout<<"SUERTE CON LA PREGUNTA"<<endl;
+                    cout<<"El número romano MDCLXVI corresponde a:"<<endl;
+                    cout<<"1: 1666"<<endl;
+                    cout<<"2: 1551"<<endl;
+                    cout<<"3: 1000100"<<endl <<endl;
+                    cin>>respuesta22;
+                    
+                    switch(respuesta22){
+                        case 1:
+                            totalpuntos=totalpuntos + sumapuntoscultura;
+                            cout<<"FELICIDADES"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 2:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        case 3:
+                            totalpuntos=totalpuntos - restapuntos;
+                            cout<<"TE EQUIVOCASTE"<<endl <<"Tu total de puntos es de: " <<totalpuntos <<" puntos"<<endl <<endl;
+                            break;
+                        default:
+                            cout<<"Lo lamento la opcion que eliguio no esta disponible" <<endl;
+                            cout<<"vuelve a eleguir una de las opciones anteriores"<<endl <<endl;
+                    }
+                }while(respuesta22 !=1 && respuesta22 !=2 && respuesta22 !=3);
+            }
